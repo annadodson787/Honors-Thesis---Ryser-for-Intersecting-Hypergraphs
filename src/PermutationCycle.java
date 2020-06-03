@@ -72,7 +72,7 @@ public class PermutationCycle {
 			this.addAllRows(newGroup);
 			
 			currentGroup = newGroup;
-			bundles[groupnum-1] = currentGroup;
+			bundles[groupnum-1] = currentGroup; 
 		}
 		
 		Integer[][][] MOLS = MOLSto1Intersecting(bundles, N);

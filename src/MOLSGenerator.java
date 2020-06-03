@@ -21,7 +21,7 @@ public class MOLSGenerator {
 		this.rows = new HashSet<Integer[]>();
 		
 		if (q == 16) {
-			this.poly = 0b10011; //x^4 + x + 1;
+			this.poly = 0b10011; //x^4 + x + 1
 		} else if (q == 8) {
 			this.poly = 0b1101; //x^3 + x + 1
 		} else if (q == 256) {

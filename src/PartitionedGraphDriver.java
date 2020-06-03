@@ -216,7 +216,7 @@ public class PartitionedGraphDriver {
 			for (String str: g.stringBuilderList) {
 				g.s.append(str);
 			}
-			//if (g.depth>30 || g.depth<14) {
+			//if (g.depth>30 || g.depth<14) { 
 			if (g.depth >= 13) {//this.maxDepth) {
 				count.increment();
 				this.maxDepth = g.depth;
